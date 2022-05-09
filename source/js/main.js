@@ -12,7 +12,7 @@ const section = document.querySelectorAll('section');
 document.addEventListener("scroll", () => {
   hideNavigation();
 
-  if (window.scrollY > 40) {
+  if (window.scrollY > 70) {
     headerBottom.classList.add("active");
   } else {
     headerBottom.classList.remove("active");
